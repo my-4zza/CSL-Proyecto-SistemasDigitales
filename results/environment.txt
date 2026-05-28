@@ -1,0 +1,9 @@
+CPU: AMD Ryzen 5 7535HS with Radeon Graphics (3.30GHz)
+
+OS: Windows 11 Home Single Language Versión 25H2 25200.8246
+
+Sintetizador: Gowin V1.9.11.03 Education x64 win
+
+Placa: Tang Nano 9K (basada en un chip FPGA)
+
+Fecha: 28 de mayo de 2026
