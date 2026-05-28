@@ -1,0 +1,23 @@
+
+// Gowin Physical Constraints File (.cst) - Versión 0.1.0
+// Asignación inicial de pines sin configuraciones de PULL_MODE o DRIVE.
+// Nota: La Tang Nano 9K empieza desde el pin 25 para los sensores.
+// Autor: Azael Pérez González
+// Fecha: 28/05/26
+
+IO_LOC "clk" 52;
+IO_LOC "START" 30;
+
+IO_LOC "S1" 25;
+IO_LOC "S2" 26;
+IO_LOC "S3" 27;
+IO_LOC "S4" 28;
+IO_LOC "S5" 29;
+
+IO_LOC "PWMA" 33;
+IO_LOC "AIN1" 34;
+IO_LOC "AIN2" 35;
+
+IO_LOC "PWMB" 36;
+IO_LOC "BIN1" 37;
+IO_LOC "BIN2" 38;
