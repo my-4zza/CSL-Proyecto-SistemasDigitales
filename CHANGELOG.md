@@ -14,8 +14,8 @@ Registro de versiones, modificaciones en la documentación y actualizaciones en 
 | `AUTHORS.md` | `Nuevo` -> `v0.1.0` | Creación del archivo de créditos y equipo de trabajo | 31/05/2026 | Portilla Durán Antonio de Jesús (`Antonioportillaxd`) |
 | `.gitignore` | `Nuevo` -> `v0.1.0` | chore: Configuración de exclusión de archivos temporales. | 31/05/2026 | Cid Garcia Alfredo (`Alfredxs19`) |
 | `README.md` | `Nuevo` -> `v0.1.0` | docs: Creación de la guía de usuario y documentación del proyecto. | 31/05/2026 | Alarcón Galván Jimmy Loucioss (`Jimmy-alarcon`) |
-| :--- | :--- | :--- | :--- | :--- |
-| :--- | :--- | :--- | :--- | :--- |
+| `CONTRIBUTING.md` | `Nuevo -> v0.1.0` | docs: Creación de guía de contribución y flujo de trabajo. | 31/05/2026 | Pérez González Azael (`my-4zza`) |
+| `CONTRIBUTING.md` | `v0.1.0 -> v0.1.1` | chore: Simplificación del proceso de contribución. | 31/05/2026 | Pérez González Azael (`my-4zza`) |
 | :--- | :--- | :--- | :--- | :--- |
 | :--- | :--- | :--- | :--- | :--- |
 | :--- | :--- | :--- | :--- | :--- |
