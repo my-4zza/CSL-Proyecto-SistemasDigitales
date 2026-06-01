@@ -18,7 +18,7 @@ Registro de versiones, modificaciones en la documentación y actualizaciones en 
 | `CONTRIBUTING.md` | `v0.1.0 -> v0.1.1` | chore: Simplificación del proceso de contribución. | 31/05/2026 | Pérez González Azael (`my-4zza`) |
 | `top_velocista_no_opt.v` | `0.1.0` -> `v0.2.0` | Implementación de lógica básica de seguimiento de línea utilizando sensores S2, S3 y S4 | 31/05/2026 | Portilla Durán Antonio de Jesús (`Antonioportillaxd`) |
 | `pines_tangnano.cst` | `0.1.0` -> `v0.2.0` | Ajuste de restricciones físicas con niveles LVCMOS33 | 31/05/2026 | Portilla Durán Antonio de Jesús (`Antonioportillaxd`) |
-| :--- | :--- | :--- | :--- | :--- |
+| `hardware` | `Nuevo -> v0.1.0` | chore: Inicialización de la estructura de directorios para hardware (schematics, firmware). | 01/06/2026 | Pérez González Azael (`my-4zza`) |
 | :--- | :--- | :--- | :--- | :--- |
 | :--- | :--- | :--- | :--- | :--- |
 | :--- | :--- | :--- | :--- | :--- |
