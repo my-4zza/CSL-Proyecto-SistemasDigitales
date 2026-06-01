@@ -21,6 +21,7 @@ Registro de versiones, modificaciones en la documentación y actualizaciones en 
 | `hardware` | `Nuevo -> v0.1.0` | chore: Inicialización de la estructura de directorios para hardware (schematics, firmware). | 01/06/2026 | Pérez González Azael (`my-4zza`) |
 | `hardware/schematics/bom.csv` | `Nuevo -> v0.1.0` | docs: Creación inicial de la lista de materiales. | 01/06/2026 | Pérez González Azael (`my-4zza`) |
 | `hardware/bom.csv` | `v0.1.0 -> v0.1.1` | fix: Reubicación del archivo bom.csv. | 01/06/2026 | Pérez González Azael (`my-4zza`) |
+| `hardware/schematics/esquematico.pdf` | `Nuevo` -> `v0.1.0` | docs: Integración del diagrama esquemático de conexiones eléctricas | 01/06/2026 | Cid Garcia Alfredo (`Alfredxs19`) |
 | :--- | :--- | :--- | :--- | :--- |
 | :--- | :--- | :--- | :--- | :--- |
 | :--- | :--- | :--- | :--- | :--- |
