@@ -1,0 +1,17 @@
+# Archivos de síntesis y compilación de Gowin IDE
+impl/
+*.fs
+*.jou
+*.log
+*.err
+*.bak
+
+# Archivos de simulación (Icarus Verilog, ModelSim, Verilator)
+*.vcd
+*.out
+*.vvp
+sim_build/
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db
