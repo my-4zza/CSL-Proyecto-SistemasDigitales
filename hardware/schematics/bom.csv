@@ -1,0 +1,64 @@
+﻿Cantidad,Componente,Referencia,Proveedor Sugerido,Enlace,Especificaciones
+1,FPGA,Tang Nano 9K (Gowin GW1NR-9),Mercado Libre,Ver producto,"Celdas Lógicas: 8640 LUT4
+Registros Flip-Flop: 6480 FF
+Frecuencia de reloj: 27MHz
+SSRAM: 17280 bits
+BSRAM: 468 K
+Cantidad de BSRAM: 26
+Flash: 608K bits
+PSRAM:64M bits
+Performance DPS:
+Multiplicador 18X18: 20
+54 bit acumulador
+SPI Flash: 32M-bit
+PLLs: 2
+Interfaz Display: HDMI, RGB y SPI
+Ranura para TF: Incluida
+Compilador: USB-JTAG y USB-UART integrados- Chip BL702
+Botones: 2 botones programables
+Led: 6 LED programables integrados
+Dimensiones: 26 mm x 70 mm
+Peso: 47g"
+1,Puente H,TB6612FNG 1.2 A,Mercado Libre,Ver producto,"Capacidad de corriente de 1.2A con picos de hasta 3.2A para un rendimiento óptimo.
+Control de dos motores DC o un motor paso a paso.
+Velocidad ajustable mediante señal PWM de hasta 100kHz."
+1,Sensores de línea,TCRT5000 módulo BFD-1000,Mercado Libre,Ver producto,"Voltaje de alimentación 3.3 – 5 V
+Sensores 5 TCRT5000
+1 par infrarrojo
+1 limit switch
+Detección linea 1- 40mm negra/blanca
+Detección proximidad 1 – 50mm
+Salida Digital
+Indicador LED 5 infrarrojos linea
+1 alimentacion
+1 proximidad
+1 colisión"
+2,Motoreductores,GA12-N20 6 V,Mercado Libre,Ver producto,"2 MOTORREDUCTORES N20
+2 LLANTAS
+2 SOPORTES
+El GA12-N20 tiene una velocidad nominal de 1000 RPM
+Dc 3v/6v/12"
+1,Regulador de voltaje,MP1584 DC-DC Step-Down 3 A,Mercado Libre,Ver producto,"Voltaje de entrada: 0.8V - 20V.
+Voltaje de salida: 0.8V - 20V.
+Temperatura de funcionamiento: 0°C - 105°C."
+1,Bateria,LiPo NanoTech 300 mAh 2S 7.4 V,Mercado Libre,Ver producto,"Capacidad: 300mAh
+Voltaje: 7.4V (2S)
+Descarga: 35C (70C Burst)
+Peso: 18g
+Dimensiones: 53x9x20mm
+Conectores: JST-XH (Bal) / JST (Desc)"
+2,Ruedas,3pi N20,Mercado Libre,Ver producto,"Material
+Soporte: Plástico
+Esfera: Acero
+Distancia entre orificios de fijación: 15 mm aprox.
+Dimensiones: 22 mm x 16 mm x 15 mm
+Peso: 10 g"
+1,Chasis,Impresión 3D,Diseño propio,NA,"11.00 x 20.068 x 4.055 cm
+Filamento: PETG"
+1,Cargador de batería,Cargador USB XH-3P 7.4V 800mA,Mercado Libre,Ver Producto,"Este cargador USB de iones de litio solo es adecuado
+para baterías de iones de litio de 7.4 V.
+Tiene USB en un extremo y conector XH-3P
+en el otro extremo.
+Entrada: DC5V, voltaje de salida: 7.4V, 1000mA."
+1,Fotoresistor,LM393,Mercado Libre,Ver Producto,"Microcontrolador LM393 para detección precisa.
+Voltaje de funcionamiento entre 3.3V y 5V."
