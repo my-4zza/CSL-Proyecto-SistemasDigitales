@@ -16,7 +16,8 @@ Registro de versiones, modificaciones en la documentación y actualizaciones en 
 | `README.md` | `Nuevo` -> `v0.1.0` | docs: Creación de la guía de usuario y documentación del proyecto. | 31/05/2026 | Alarcón Galván Jimmy Loucioss (`Jimmy-alarcon`) |
 | `CONTRIBUTING.md` | `Nuevo -> v0.1.0` | docs: Creación de guía de contribución y flujo de trabajo. | 31/05/2026 | Pérez González Azael (`my-4zza`) |
 | `CONTRIBUTING.md` | `v0.1.0 -> v0.1.1` | chore: Simplificación del proceso de contribución. | 31/05/2026 | Pérez González Azael (`my-4zza`) |
-| :--- | :--- | :--- | :--- | :--- |
+| `top_velocista_no_opt.v` | `0.1.0` -> `v0.2.0` | Implementación de lógica básica de seguimiento de línea utilizando sensores S2, S3 y S4 | 31/05/2026 | Portilla Durán Antonio de Jesús (`Antonioportillaxd`) |
+| `pines_tangnano.cst` | `0.1.0` -> `v0.2.0` | Ajuste de restricciones físicas con niveles LVCMOS33 | 31/05/2026 | Portilla Durán Antonio de Jesús (`Antonioportillaxd`) |
 | :--- | :--- | :--- | :--- | :--- |
 | :--- | :--- | :--- | :--- | :--- |
 | :--- | :--- | :--- | :--- | :--- |
