@@ -13,7 +13,7 @@ Registro de versiones, modificaciones en la documentación y actualizaciones en 
 | `PROJECT.md` | `Nuevo` -> `v0.1.0` | docs: Creación de la documentación del proyecto (objetivos,MVP y hardware | 31/05/2026 | Alegría Ponce José Santiago (`AlegriaPonceJoseSantiago343`) |
 | `AUTHORS.md` | `Nuevo` -> `v0.1.0` | Creación del archivo de créditos y equipo de trabajo | 31/05/2026 | Portilla Durán Antonio de Jesús (`Antonioportillaxd`) |
 | `.gitignore` | `Nuevo` -> `v0.1.0` | chore: Configuración de exclusión de archivos temporales. | 31/05/2026 | Cid Garcia Alfredo (`Alfredxs19`) |
-| :--- | :--- | :--- | :--- | :--- |
+| `README.md` | `Nuevo` -> `v0.1.0` | docs: Creación de la guía de usuario y documentación del proyecto. | 31/05/2026 | Alarcón Galván Jimmy Loucioss (`Jimmy-alarcon`) |
 | :--- | :--- | :--- | :--- | :--- |
 | :--- | :--- | :--- | :--- | :--- |
 | :--- | :--- | :--- | :--- | :--- |
