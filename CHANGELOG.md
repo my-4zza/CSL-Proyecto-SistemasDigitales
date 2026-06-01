@@ -11,7 +11,7 @@ Registro de versiones, modificaciones en la documentación y actualizaciones en 
 | `results/environment.txt` | `Nuevo` -> `v0.1.0` | chore: Creación del registro de entorno y herramientas de síntesis. | 28/05/2026 | Pérez González Azael (`my-4zza`) |
 | `CHANGELOG.md` | `Nuevo` -> `v0.1.0` | docs: Creación del archivo CHANGELOG.md para llevar el control del historial de versiones. | 31/05/2026 | Pérez González Azael (`my-4zza`) |
 | `PROJECT.md` | `Nuevo` -> `v0.1.0` | docs: Creación de la documentación del proyecto (objetivos,MVP y hardware | 31/05/2026 | Alegría Ponce José Santiago (`AlegriaPonceJoseSantiago343`) |
-| :--- | :--- | :--- | :--- | :--- |
+| `AUTHORS.md` | `Nuevo` -> `v0.1.0` | Creación del archivo de créditos y equipo de trabajo | 31/05/2026 | Portilla Durán Antonio de Jesús (`Antonioportillaxd`) |
 | :--- | :--- | :--- | :--- | :--- |
 | :--- | :--- | :--- | :--- | :--- |
 | :--- | :--- | :--- | :--- | :--- |
