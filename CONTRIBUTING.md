@@ -22,10 +22,3 @@ Ejemplo: `feat: Añadir lógica de PID para control de motores`
 ## 3. Formato de Código
 * **Verilog**: Mantén indentaciones de 4 espacios. Utiliza nombres de señales claros en minúsculas.
 * **Documentación**: Todos los archivos nuevos deben seguir el formato Markdown y actualizarse en el `CHANGELOG.md`.
-
-## 4. Proceso de Pull Request
-1. Asegúrate de que todos los tests (`tests/run_tests.sh`) pasen correctamente.
-2. Crea un Pull Request describiendo los cambios realizados.
-3. Espera la revisión de un compañero antes de fusionar en `main`.
-
-¡Mantengamos el repositorio limpio y documentado!
