@@ -25,7 +25,7 @@ Registro de versiones, modificaciones en la documentación y actualizaciones en 
 | `test` | `Nuevo` -> `v0.1.0` | docs: Creación de carpeta para almacenamiento de scripts y pruebas rapidas a realizar | 1/06/2026 | Alegría Ponce José Santiago (`AlegriaPonceJoseSantiago343`) |
 | `run_test.sh` | `v0.1.0` | feat:se añade código que facilita las pruebas en los sensores   | 1/06/2026 | Alegría Ponce José Santiago (`AlegriaPonceJoseSantiago343`) |
 | `tb_top_velocista.v` | `v0.1.0` | feat:se añade test bench para pruebas en el código para aumento de ciclos y disparo de carrito | 1/06/2026 | Alegría Ponce José Santiago (`AlegriaPonceJoseSantiago343`) |
-| :--- | :--- | :--- | :--- | :--- |
+| `scripts/` | `Nuevo -> v0.1.0` | chore: Integración de scripts de despliegue para entornos Unix. | 02/06/2026 | Pérez González Azael (`my-4zza`) |
 | :--- | :--- | :--- | :--- | :--- |
 | :--- | :--- | :--- | :--- | :--- |
 | :--- | :--- | :--- | :--- | :--- |
