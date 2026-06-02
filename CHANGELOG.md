@@ -22,6 +22,9 @@ Registro de versiones, modificaciones en la documentación y actualizaciones en 
 | `hardware/schematics/bom.csv` | `Nuevo -> v0.1.0` | docs: Creación inicial de la lista de materiales. | 01/06/2026 | Pérez González Azael (`my-4zza`) |
 | `hardware/bom.csv` | `v0.1.0 -> v0.1.1` | fix: Reubicación del archivo bom.csv. | 01/06/2026 | Pérez González Azael (`my-4zza`) |
 | `hardware/schematics/esquematico.pdf` | `Nuevo` -> `v0.1.0` | docs: Integración del diagrama esquemático de conexiones eléctricas | 01/06/2026 | Cid Garcia Alfredo (`Alfredxs19`) |
+| `test` | `Nuevo` -> `v0.1.0` | docs: Creación de carpeta para almacenamiento de scripts y pruebas rapidas a realizar | 1/06/2026 | Alegría Ponce José Santiago (`AlegriaPonceJoseSantiago343`) |
+| `run_test.sh` | `v0.1.0` | feat:se añade código que facilita las pruebas en los sensores   | 1/06/2026 | Alegría Ponce José Santiago (`AlegriaPonceJoseSantiago343`) |
+| `tb_top_velocista.v` | `v0.1.0` | feat:se añade test bench para pruebas en el código para aumento de ciclos y disparo de carrito | 1/06/2026 | Alegría Ponce José Santiago (`AlegriaPonceJoseSantiago343`) |
 | :--- | :--- | :--- | :--- | :--- |
 | :--- | :--- | :--- | :--- | :--- |
 | :--- | :--- | :--- | :--- | :--- |
