@@ -32,6 +32,7 @@ Registro de versiones, modificaciones en la documentación y actualizaciones en 
 | `docs` | `Nuevo` -> `v0.1.0` | Se añadio toda la documentacion de datasheets y caracteristicas. | 2/06/2026 | Portilla Durán Antonio de Jesús (`Antonioportillaxd`) |
 | :--- | :--- | :--- | :--- | :--- |
 | `results/synthesis_report.txt` | `Nuevo` -> `v0.1.0` | docs: Registro del consumo de compuertas lógicas de la FPGA. | 02/06/2026 | Alarcón Galván Jimmy Loucioss (`Jimmy-alarcon`) |
+| `hardware/diagrama_bloques.png` | `Nuevo` -> `v0.1.0` | docs: Registro del consumo de compuertas lógicas de la FPGA. | 02/06/2026 | Alarcón Galván Jimmy Loucioss (`Jimmy-alarcon`) |
 | :--- | :--- | :--- | :--- | :--- |
 | :--- | :--- | :--- | :--- | :--- |
 | :--- | :--- | :--- | :--- | :--- |
