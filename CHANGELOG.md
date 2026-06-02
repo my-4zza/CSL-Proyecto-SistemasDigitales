@@ -30,7 +30,6 @@ Registro de versiones, modificaciones en la documentación y actualizaciones en 
 | `docs` | `Nuevo` -> `v0.1.0` | Se elimino el archivo docs, posteriormente se cambio a carpeta. | 2/06/2026 | Portilla Durán Antonio de Jesús (`Antonioportillaxd`) |
 | `docs` | `Nuevo` -> `v0.2.0` | Se añadio y corregido la carpeta docs| 2/06/2026 | Portilla Durán Antonio de Jesús (`Antonioportillaxd`) |
 | `docs` | `Nuevo` -> `v0.1.0` | Se añadio toda la documentacion de datasheets y caracteristicas. | 2/06/2026 | Portilla Durán Antonio de Jesús (`Antonioportillaxd`) |
-| :--- | :--- | :--- | :--- | :--- |
 | `results/synthesis_report.txt` | `Nuevo` -> `v0.1.0` | docs: Registro del consumo de compuertas lógicas de la FPGA. | 02/06/2026 | Alarcón Galván Jimmy Loucioss (`Jimmy-alarcon`) |
 | `hardware/diagrama_bloques.png` | `Nuevo` -> `v0.1.0` | docs: Registro del consumo de compuertas lógicas de la FPGA. | 02/06/2026 | Alarcón Galván Jimmy Loucioss (`Jimmy-alarcon`) |
 | `docs/diagrama_bloques.png` | `Nuevo` -> `v0.1.0` | fix: Reubicación del archivo diagrama_bloques.png. | 02/06/2026 | Alarcón Galván Jimmy Loucioss (`Jimmy-alarcon`) |
