@@ -33,6 +33,7 @@ Registro de versiones, modificaciones en la documentación y actualizaciones en 
 | :--- | :--- | :--- | :--- | :--- |
 | `results/synthesis_report.txt` | `Nuevo` -> `v0.1.0` | docs: Registro del consumo de compuertas lógicas de la FPGA. | 02/06/2026 | Alarcón Galván Jimmy Loucioss (`Jimmy-alarcon`) |
 | `hardware/diagrama_bloques.png` | `Nuevo` -> `v0.1.0` | docs: Registro del consumo de compuertas lógicas de la FPGA. | 02/06/2026 | Alarcón Galván Jimmy Loucioss (`Jimmy-alarcon`) |
+| `docs/diagrama_bloques.png` | `Nuevo` -> `v0.1.0` | fix: Reubicación del archivo diagrama_bloques.png. | 02/06/2026 | Alarcón Galván Jimmy Loucioss (`Jimmy-alarcon`) |
 | :--- | :--- | :--- | :--- | :--- |
 | :--- | :--- | :--- | :--- | :--- |
 | :--- | :--- | :--- | :--- | :--- |
