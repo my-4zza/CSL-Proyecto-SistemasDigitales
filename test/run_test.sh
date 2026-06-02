@@ -8,7 +8,6 @@ module tb_sensores();
     reg S1, S2, S3, S4, S5;
     wire PWMA, AIN1, AIN2, PWMB, BIN1, BIN2;
 
-    // Instanciamos el módulo bajando el delay a solo 100 ciclos para simular rápido
     velocista #( .MAX_DELAY(25'd100) ) uut (
         .clk(clk), .START(START),
         .S1(S1), .S2(S2), .S3(S3), .S4(S4), .S5(S5),
