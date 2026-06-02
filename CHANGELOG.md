@@ -26,6 +26,7 @@ Registro de versiones, modificaciones en la documentación y actualizaciones en 
 | `run_test.sh` | `v0.1.0` | feat:se añade código que facilita las pruebas en los sensores   | 1/06/2026 | Alegría Ponce José Santiago (`AlegriaPonceJoseSantiago343`) |
 | `tb_top_velocista.v` | `v0.1.0` | feat:se añade test bench para pruebas en el código para aumento de ciclos y disparo de carrito | 1/06/2026 | Alegría Ponce José Santiago (`AlegriaPonceJoseSantiago343`) |
 | `scripts/` | `Nuevo -> v0.1.0` | chore: Integración de scripts de despliegue para entornos Unix. | 02/06/2026 | Pérez González Azael (`my-4zza`) |
+| `dump.vcd` | `Nuevo` -> `v0.1.0` | Se añadio el archivo vcd dentro de results | 2/06/2026 | Portilla Durán Antonio de Jesús (`Antonioportillaxd`) |
 | :--- | :--- | :--- | :--- | :--- |
 | :--- | :--- | :--- | :--- | :--- |
 | :--- | :--- | :--- | :--- | :--- |
