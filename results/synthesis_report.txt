@@ -1,0 +1,17 @@
+Resource Usage Summary
+Resource	Usage
+I/O Port	13
+I/O Buf	13
+    IBUF	7
+    OBUF	6
+Register	23
+    DFFE	1
+    DFFR	22
+LUT	26
+    LUT2	5
+    LUT3	5
+    LUT4	16
+ALU	11
+    ALU	11
+INV	4
+    INV	4
