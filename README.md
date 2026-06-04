@@ -63,15 +63,6 @@ Ver lista completa con proveedores en [`hardware/bom.csv`](hardware/bom.csv).
 
 ## Requisitos de software
 
-| Herramienta        | Nota                                                        |
-|--------------------|-------------------------------------------------------------|
-| Gowin EDA          | V1.9.11.03 Education (Windows) — síntesis y programación    |
-| Icarus Verilog     | Última versión estable — simulación open-source (opcional)  |
-| GTKWave            | Última versión estable — visualización de formas de onda    |
-| OpenFPGALoader     | Alternativa open-source a Gowin Programmer                  |
-
-## Requisitos de software
-
 | Herramienta | Nota |
 | :--- | :--- |
 | **Gowin EDA** | V1.9.11.03 Education (Windows) — síntesis y programación |
