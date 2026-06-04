@@ -33,8 +33,8 @@ Registro de versiones, modificaciones en la documentación y actualizaciones en 
 | `results/synthesis_report.txt` | `Nuevo` -> `v0.1.0` | docs: Registro del consumo de compuertas lógicas de la FPGA. | 02/06/2026 | Alarcón Galván Jimmy Loucioss (`Jimmy-alarcon`) |
 | `hardware/diagrama_bloques.png` | `Nuevo` -> `v0.1.0` | docs: Registro del consumo de compuertas lógicas de la FPGA. | 02/06/2026 | Alarcón Galván Jimmy Loucioss (`Jimmy-alarcon`) |
 | `docs/diagrama_bloques.png` | `Nuevo` -> `v0.1.0` | fix: Reubicación del archivo diagrama_bloques.png. | 02/06/2026 | Alarcón Galván Jimmy Loucioss (`Jimmy-alarcon`) |
-| :--- | :--- | :--- | :--- | :--- |
-| :--- | :--- | :--- | :--- | :--- |
+| `src/top_velocista_no_opt.v` | `v0.1.0`-> `v1.0.0` | feat: integrar sensores y motores | 04/06/26 | Pérez González Azael (`my-4zza`) |
+| `src/pines_tangnano.cst` | `v0.1.0`-> `v1.0.0` | feat: habilitar resistencias pull-up en I/O - Azael | 04/06/26 | Pérez González Azael (`my-4zza`) |
 | :--- | :--- | :--- | :--- | :--- |
 | :--- | :--- | :--- | :--- | :--- |
 | :--- | :--- | :--- | :--- | :--- |
