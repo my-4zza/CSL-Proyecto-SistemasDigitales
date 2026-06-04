@@ -14,29 +14,31 @@ puente H TB6612FNG.
 
 ```
 CSL-Proyecto-SistemasDigitales/
-├── src/                           # Código fuente Verilog / restricciones
+├── src/                           # Código fuente Verilog y restricciones
 │   ├── pines_tangnano.cst         # Asignación de pines (Tang Nano 9K)
-│   ├── top_velocista_no_opt.v     # Módulo principal v0.1.0
-│   └── other_modules/             # Módulos auxiliares (PWM, FSM, etc.)
-├── tests/                         # Testbenches de simulación
+│   └── top_velocista_no_opt.v     # Módulo principal v0.1.0
+├── test/                          # Testbenches de simulación
 │   ├── tb_top_velocista.v         # Testbench para el módulo principal
-│   └── run_tests.sh               # Script para ejecutar todas las pruebas
-├── docs/                          # Documentación y diagramas
-│   ├── instrucciones_montaje.md   # Guía de ensamble físico
-│   └── datasheets/                # Referencias y fichas técnicas
-├── hardware/                      # BOM y esquemáticos
+│   └── run_test.sh                # Script para ejecutar pruebas
+├── docs/                          # Documentación y hojas de datos
+│   ├── diagrama_bloques.png       # Diagrama de bloques del sistema
+│   ├── TB6612FNG.pdf              # Datasheet del puente H
+│   ├── lm393.pdf                  # Datasheet del comparador LM393
+│   ├── mp1584-datasheet.pdf       # Datasheet del regulador step-down
+│   ├── pololu-micro-metal...pdf   # Datasheet de los motoreductores
+│   └── tcrt5000.pdf               # Datasheet de los sensores infrarrojos
+├── hardware/                      # Lista de materiales y esquemáticos
 │   ├── bom.csv                    # Lista de materiales (Bill of Materials)
-│   ├── schematics/                # Archivos de esquemáticos
-│   └── firmware/                  # Nota: código embarcado reside en src/
-├── results/                       # Reportes de síntesis y simulación
-│   ├── environment.txt            # Entorno de desarrollo
-│   ├── synthesis_report.md        # Reporte de recursos y timing de Gowin
-│   ├── raw/                       # Salidas crudas (VCD, logs de simulación)
-│   └── plots/                     # Gráficos comparativos (PNG)
+│   └── schematics/
+│       └── Mapa_Conexiones.pdf    # Diagrama de conexiones del hardware
+├── results/                       # Reportes de síntesis y salidas de simulación
+│   ├── dump.vcd                   # Archivo de formas de onda generado
+│   ├── environment.txt            # Detalles del entorno
+│   └── synthesis_report.txt       # Reporte de recursos y timing
 ├── scripts/                       # Utilidades y automatización
-│   ├── simulate.sh                # Compilar y simular con Icarus Verilog
-│   ├── synthesize.sh              # Síntesis por línea de comandos (Gowin)
-│   └── setup_env.sh               # Instalar herramientas de simulación
+│   ├── deploy.sh                  # Script de despliegue
+│   └── setup_env.sh               # Script de configuración del entorno
+├── .gitignore                     # Archivos ignorados por Git
 ├── PROJECT.md                     # Objetivos, MVP y cronograma
 ├── AUTHORS.md                     # Integrantes del equipo
 ├── CHANGELOG.md                   # Historial de versiones
@@ -68,6 +70,14 @@ Ver lista completa con proveedores en [`hardware/bom.csv`](hardware/bom.csv).
 | GTKWave            | Última versión estable — visualización de formas de onda    |
 | OpenFPGALoader     | Alternativa open-source a Gowin Programmer                  |
 
+## Requisitos de software
+
+| Herramienta | Nota |
+| :--- | :--- |
+| **Gowin EDA** | V1.9.11.03 Education (Windows) — síntesis y programación |
+| **EDA Playground** | Plataforma web para simulación de código Verilog |
+| **OpenFPGALoader** | Alternativa open-source a Gowin Programmer |
+
 ## Cómo sintetizar y programar
 
 1. Abrir **Gowin EDA** e importar el proyecto (`.gprj`).
@@ -75,25 +85,19 @@ Ver lista completa con proveedores en [`hardware/bom.csv`](hardware/bom.csv).
 3. Ejecutar: *Synthesize → Place & Route → Generate Bitstream*.
 4. Conectar la Tang Nano 9K por USB y cargar el bitstream `.fs` con **Gowin Programmer**.
 
-## Cómo simular (Icarus Verilog)
+## Cómo simular (EDA Playground)
 
-```bash
-# Instalar herramientas de simulación (ver scripts/setup_env.sh)
-bash scripts/setup_env.sh
+Para la verificación lógica del diseño se utiliza la plataforma en la nube [EDA Playground](https://edaplayground.com/), eliminando la necesidad de instalar simuladores locales.
 
-# Simular el módulo principal
-bash scripts/simulate.sh
-
-# Ejecutar todos los testbenches y generar resumen
-bash tests/run_tests.sh
-```
+1. Ingresar a **EDA Playground** e iniciar sesión.
+2. En la sección **Design** (panel derecho), pegar el código de `src/top_velocista_no_opt.v`.
+3. En la sección **Testbench** (panel izquierdo), pegar el código de `test/tb_top_velocista.v`.
+4. En el panel izquierdo (**Tools & Simulators**):
+   * Seleccionar **Icarus Verilog** (versión recomendada 0.10.0 o superior).
+   * Marcar la casilla **Open EPWave after run** para habilitar el visor de señales.
+5. Hacer clic en el botón **Run** (arriba a la derecha). Al finalizar, se abrirá automáticamente la ventana con las formas de onda correspondientes al archivo `dump.vcd` generado.
 
 Los archivos `.vcd` generados en `results/raw/` se visualizan con GTKWave.
-
-## Versión actual
-
-`v0.1.0` - Prueba básica de motores. El carro avanza mientras el botón START
-permanece presionado. La lógica de sensores se integrará en la versión 0.2.0.
 
 ## Licencia
 
